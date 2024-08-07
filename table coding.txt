@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Result Table</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 5px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Student Result Table</h2>
+
+<table>
+    <tr>
+        <th>S.No.</th>
+        <th>Roll No</th>
+        <th>Name<br>Father Name</th>
+        <th>BMPD201-18</th>
+        <th>BTAM201-23</th>
+        <th>BTCH101-23</th>
+        <th>BTCH102-18</th>
+        <th>BTHU101-18</th>
+        <th>BTMP101-18</th>
+        <th>BTPS101-18</th>
+        <th>BTPS102-18</th>
+        <th>SGPA</th>
+        <th>Credits (Earned)</th>
+        <th>Result Status</th>
+    </tr>
+    <tr>
+        <td>56</td>
+        <td>2301233</td>
+        <td>LOVEPREET SINGH<br> SUKHWINDER SINGH</td>
+        <td>S</td>
+        <td>B</td>
+        <td>B+</td>
+        <td>1</td>
+        <td>3</td>
+        <td>A</td>
+        <td>A+</td>
+        <td>2</td>
+        <td>7.40</td>
+        <td>20</td>
+        <td>Pass</td>
+    </tr>
+    <tr>
+        <td>57</td>
+        <td>2301234</td>
+        <td>LUCKY KUMAR YADAV<br> HARI SHANKAR YADAV</td>
+        <td>0</td>
+        <td>F(Ext)</td>
+        <td>4</td>
+        <td>4</td>
+        <td>B+</td>
+        <td>A</td>
+        <td>3</td>
+        <td>2</td>
+        <td>12</td>
+        <td>Re-Appear</td>
+    </tr>
+    <tr>
+        <td>58</td>
+        <td>2301235</td>
+        <td>MANNIDER SINGH<br> HARPREET SINGH</td>
+        <td>S</td>
+        <td>F(Ext)</td>
+        <td>0</td>
+        <td>4</td>
+        <td>B</td>
+        <td>A</td>
+        <td>C</td>
+        <td>1</td>
+        <td>12</td>
+        <td>Re-Appear</td>
+    </tr>
+    <tr>
+        <td>59</td>
+        <td>2301236</td>
+        <td>MANMOHAN SINGH<br> BHAGAT SINGH</td>
+        <td>0</td>
+        <td>F(Ext)</td>
+        <td>4</td>
+        <td>4</td>
+        <td>B+</td>
+        <td>A+</td>
+        <td>1</td>
+        <td>12</td>
+        <td>Re-Appear</td>
+    </tr>
+    <tr>
+        <td>60</td>
+        <td>2301237</td>
+        <td>MANPREET KAUR<br> LAKHBIR SINGH</td>
+        <td>0</td>
+        <td>F(Ext)</td>
+        <td>4</td>
+        <td>4</td>
+        <td>B+</td>
+        <td>A</td>
+        <td>2</td>
+        <td>16</td>
+        <td>Re-Appear</td>
+    </tr>
+</table>
+
+</body>
+</html>
