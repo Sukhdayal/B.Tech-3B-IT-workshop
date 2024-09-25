@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Table</title>
+    <style>
+        /* CSS for the table */
+        table {
+            width: 50%;
+            border-collapse: collapse;
+            margin: 20px auto;
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            text-align: center;
+        }
+
+        /* Styling the table header */
+        th {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+
+        /* Styling the table data cells */
+        td {
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+
+        /* Styling the table rows with alternating colors */
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        /* Hover effect for rows */
+        tr:hover {
+            background-color: #ddd;
+        }
+    </style>
+</head>
+<body>
+
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>City</th>
+        </tr>
+        <tr>
+            <td>Alice</td>
+            <td>25</td>
+            <td>New York</td>
+        </tr>
+        <tr>
+            <td>Bob</td>
+            <td>30</td>
+            <td>Los Angeles</td>
+        </tr>
+        <tr>
+            <td>Charlie</td>
+            <td>22</td>
+            <td>Chicago</td>
+        </tr>
+        <tr>
+            <td>Daisy</td>
+            <td>27</td>
+            <td>Houston</td>
+        </tr>
+    </table>
+
+</body>
+</html>
